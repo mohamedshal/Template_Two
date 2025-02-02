@@ -364,7 +364,7 @@ emailInput.forEach((emailInput) => {
 
 // loading 
 let loader = document.querySelector(".loader");
-window.onload = function() {
+document.addEventListener('DOMContentLoaded', function () {
     loader.style.display = "none";
-}
+});
 
